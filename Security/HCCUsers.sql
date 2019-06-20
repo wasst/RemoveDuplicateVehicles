@@ -1,0 +1,23 @@
+﻿CREATE ROLE [HCCUsers]
+    AUTHORIZATION [dbo];
+
+
+GO
+ALTER ROLE [HCCUsers] ADD MEMBER [gooba];
+
+
+GO
+ALTER ROLE [HCCUsers] ADD MEMBER [Domain Users];
+
+
+GO
+ALTER ROLE [HCCUsers] ADD MEMBER [phpApp_Innovation];
+
+
+GO
+ALTER ROLE [HCCUsers] ADD MEMBER [vsApp];
+
+
+GO
+ALTER ROLE [HCCUsers] ADD MEMBER [ZEN\fields];
+

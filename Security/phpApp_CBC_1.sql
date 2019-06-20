@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [phpApp_CBC]
+    WITH PASSWORD = N'qc$2iU;vTmo|VbQp6bU=gr8vmsFT7_&#$!~<!qr|dk|tnhiw', SID = 0xB754EA53201E6246B4AADDC547C72A61, DEFAULT_DATABASE = [vehiclebookings_Test], DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

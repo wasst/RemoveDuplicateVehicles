@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[tblMyObject] (
+    [MyKeyField]  INT           NOT NULL,
+    [MyListField] NVARCHAR (50) NULL,
+    [MyField01]   NVARCHAR (50) NULL,
+    [MyField02]   NVARCHAR (50) NULL,
+    [MyField03]   NVARCHAR (50) NULL,
+    [MyField04]   NVARCHAR (50) NULL,
+    [MyField05]   NVARCHAR (50) NULL,
+    [MyField06]   NVARCHAR (50) NULL,
+    [MyField07]   NVARCHAR (50) NULL,
+    [MyField08]   NVARCHAR (50) NULL,
+    [Myfield09]   NVARCHAR (50) NULL,
+    [MyField10]   NVARCHAR (50) NULL,
+    [MyField11]   NVARCHAR (50) NULL,
+    [MyField12]   NVARCHAR (50) NULL,
+    [MyField13]   NVARCHAR (50) NULL,
+    [MyField14]   NVARCHAR (50) NULL,
+    [MyField15]   NVARCHAR (50) NULL,
+    [MyField16]   NVARCHAR (50) NULL,
+    [MyField17]   NVARCHAR (50) NULL,
+    [MyField18]   NVARCHAR (50) NULL,
+    [MyField19]   NVARCHAR (50) NULL,
+    [MyField20]   NVARCHAR (50) NULL,
+    CONSTRAINT [PK_tblMyObject] PRIMARY KEY CLUSTERED ([MyKeyField] ASC) WITH (FILLFACTOR = 90)
+);
+

@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[tblDemo] (
+    [a] INT           IDENTITY (1, 1) NOT NULL,
+    [b] NVARCHAR (50) NOT NULL,
+    [c] NVARCHAR (50) NULL,
+    [d] NVARCHAR (50) NULL,
+    [e] NVARCHAR (50) NULL,
+    [f] NVARCHAR (50) NULL,
+    [g] NVARCHAR (50) NULL,
+    CONSTRAINT [PK_tblDemo] PRIMARY KEY CLUSTERED ([a] ASC) WITH (FILLFACTOR = 90)
+);
+

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[temp] (
+    [TempID] INT NOT NULL,
+    CONSTRAINT [PK_temp] PRIMARY KEY CLUSTERED ([TempID] ASC) WITH (FILLFACTOR = 90)
+);
+

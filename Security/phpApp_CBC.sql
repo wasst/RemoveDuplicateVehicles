@@ -1,0 +1,3 @@
+﻿CREATE USER [phpApp_CBC] FOR LOGIN [phpApp_CBC]
+    WITH DEFAULT_SCHEMA = [phpApp_CBC];
+

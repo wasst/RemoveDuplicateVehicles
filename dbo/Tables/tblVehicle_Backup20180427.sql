@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[tblVehicle_Backup20180427] (
+    [VehicleID]                 INT            NOT NULL,
+    [ParkingSpace]              VARCHAR (15)   NOT NULL,
+    [Registration]              VARCHAR (15)   NOT NULL,
+    [vehicle_model_id]          INT            NOT NULL,
+    [vehicle_type_id]           INT            NOT NULL,
+    [SeatingCapacity]           INT            NOT NULL,
+    [BookingCount]              INT            NOT NULL,
+    [Weighting]                 INT            NOT NULL,
+    [Colour]                    VARCHAR (20)   NOT NULL,
+    [Information]               VARCHAR (500)  NULL,
+    [AcquisitionDate]           DATETIME       NOT NULL,
+    [DisposalDate]              DATETIME       NULL,
+    [AssignedToPersonId]        INT            NULL,
+    [DivisionId]                SMALLINT       NOT NULL,
+    [key_location_id]           INT            NULL,
+    [Avail_Now]                 BIT            NOT NULL,
+    [Avail_Early]               BIT            NOT NULL,
+    [Avail_Late]                BIT            NOT NULL,
+    [Avail_Overnight]           BIT            NOT NULL,
+    [Reserve_Unit]              BIT            NOT NULL,
+    [Reserve_Special_Usage]     BIT            NOT NULL,
+    [OrgUnitID]                 INT            NULL,
+    [Special_Usage_Description] NVARCHAR (150) NULL
+);
+

@@ -1,0 +1,52 @@
+﻿CREATE PROCEDURE [spMyObject_update]
+	(@MyKeyField_1 	[int],
+	 @MyKeyField_2 	[int],
+	 @MyListField_3 	[nvarchar](50),
+	 @MyField01_4 	[nvarchar](50),
+	 @MyField02_5 	[nvarchar](50),
+	 @MyField03_6 	[nvarchar](50),
+	 @MyField04_7 	[nvarchar](50),
+	 @MyField05_8 	[nvarchar](50),
+	 @MyField06_9 	[nvarchar](50),
+	 @MyField07_10 	[nvarchar](50),
+	 @MyField08_11 	[nvarchar](50),
+	 @Myfield09_12 	[nvarchar](50),
+	 @MyField10_13 	[nvarchar](50),
+	 @MyField11_14 	[nvarchar](50),
+	 @MyField12_15 	[nvarchar](50),
+	 @MyField13_16 	[nvarchar](50),
+	 @MyField14_17 	[nvarchar](50),
+	 @MyField15_18 	[nvarchar](50),
+	 @MyField16_19 	[nvarchar](50),
+	 @MyField17_20 	[nvarchar](50),
+	 @MyField18_21 	[nvarchar](50),
+	 @MyField19_22 	[nvarchar](50),
+	 @MyField20_23 	[nvarchar](50))
+
+AS UPDATE [HCCApps].[dbo].[tblMyObject] 
+
+SET  [MyKeyField]	 = @MyKeyField_2,
+	 [MyListField]	 = @MyListField_3,
+	 [MyField01]	 = @MyField01_4,
+	 [MyField02]	 = @MyField02_5,
+	 [MyField03]	 = @MyField03_6,
+	 [MyField04]	 = @MyField04_7,
+	 [MyField05]	 = @MyField05_8,
+	 [MyField06]	 = @MyField06_9,
+	 [MyField07]	 = @MyField07_10,
+	 [MyField08]	 = @MyField08_11,
+	 [Myfield09]	 = @Myfield09_12,
+	 [MyField10]	 = @MyField10_13,
+	 [MyField11]	 = @MyField11_14,
+	 [MyField12]	 = @MyField12_15,
+	 [MyField13]	 = @MyField13_16,
+	 [MyField14]	 = @MyField14_17,
+	 [MyField15]	 = @MyField15_18,
+	 [MyField16]	 = @MyField16_19,
+	 [MyField17]	 = @MyField17_20,
+	 [MyField18]	 = @MyField18_21,
+	 [MyField19]	 = @MyField19_22,
+	 [MyField20]	 = @MyField20_23 
+
+WHERE 
+	( [MyKeyField]	 = @MyKeyField_1)

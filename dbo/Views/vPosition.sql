@@ -1,0 +1,5 @@
+﻿CREATE VIEW dbo.vPosition
+AS
+SELECT DISTINCT TOP 100 PERCENT CODE_ID AS Job_Title_Code, CODE_DESCR AS Position_Desc
+FROM         dbo.vLink_HRSTC_CODE
+WHERE     (CODE_TYPE = 'job_title_code') AND (ACTIVE_FLAG = 'Y') AND (CODE_DESCR <> '') AND (CODE_DESCR IS NOT NULL)

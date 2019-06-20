@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblNonHREmployeeInfo] (
+    [ID_NUMBER]         INT           NOT NULL,
+    [FAMILY_NAME]       VARCHAR (50)  NULL,
+    [GIVEN_NAME]        VARCHAR (50)  NULL,
+    [OTHER_GIVEN_NAME]  VARCHAR (50)  NULL,
+    [ALIAS_NAME]        VARCHAR (50)  NULL,
+    [ACTIVE_IND]        VARCHAR (1)   NULL,
+    [USER_ID]           VARCHAR (25)  NULL,
+    [WorkPhone_1]       VARCHAR (20)  NULL,
+    [WorkPhone_2]       VARCHAR (20)  NULL,
+    [EMAIL_ADDRESS]     VARCHAR (99)  NULL,
+    [MOBILE_PHONE]      VARCHAR (20)  NULL,
+    [MOBILE_PHONE_2]    VARCHAR (20)  NULL,
+    [JOB_POS_TITLE]     VARCHAR (50)  NULL,
+    [POSITION_CODE]     VARCHAR (10)  NULL,
+    [POSITION_SUPERVSR] VARCHAR (10)  NULL,
+    [DivisionCode]      NVARCHAR (50) NULL,
+    [Division]          VARCHAR (64)  NULL,
+    [UnitCode]          NVARCHAR (50) NULL,
+    [Unit]              VARCHAR (64)  NULL,
+    [LocationCode]      NVARCHAR (50) NULL,
+    [Location]          VARCHAR (64)  NULL,
+    CONSTRAINT [PK_NonHREmployeeDetails] PRIMARY KEY NONCLUSTERED ([ID_NUMBER] ASC)
+);
+

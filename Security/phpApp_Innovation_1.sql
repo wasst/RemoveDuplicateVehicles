@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [phpApp_Innovation]
+    WITH PASSWORD = N'.ci<vo|pbCLgJWKvqWrdk|tnmsFT7_&#$!~<hiw6tsom6PvA', SID = 0x4359782CD36E60478A4B07A471AB209C, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

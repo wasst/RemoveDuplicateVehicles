@@ -1,0 +1,6 @@
+﻿
+CREATE VIEW
+[dbo].[vlink_HRHMN_EMPL_JOB_POS]
+AS
+SELECT * FROM [FinProd].[dbo].HRHMN_EMPL_JOB_POS
+

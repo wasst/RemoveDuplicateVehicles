@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[tblHREmployeeInfo] (
+    [ID_NUMBER]         INT           NOT NULL,
+    [FAMILY_NAME]       VARCHAR (50)  NULL,
+    [GIVEN_NAME]        VARCHAR (50)  NULL,
+    [OTHER_GIVEN_NAME]  VARCHAR (50)  NULL,
+    [ALIAS_NAME]        VARCHAR (50)  NULL,
+    [ACTIVE_IND]        VARCHAR (1)   NULL,
+    [USER_ID]           NVARCHAR (50) NULL,
+    [WorkPhone_1]       VARCHAR (20)  NULL,
+    [WorkPhone_2]       VARCHAR (20)  NULL,
+    [EMAIL_ADDRESS]     VARCHAR (99)  NULL,
+    [MOBILE_PHONE]      VARCHAR (50)  NULL,
+    [MOBILE_PHONE_2]    VARCHAR (50)  NULL,
+    [JOB_POS_TITLE]     VARCHAR (50)  NULL,
+    [POSITION_CODE]     VARCHAR (10)  NULL,
+    [POSITION_SUPERVSR] VARCHAR (10)  NULL,
+    [DivisionCode]      NVARCHAR (50) NULL,
+    [Division]          VARCHAR (64)  NULL,
+    [UnitCode]          NVARCHAR (50) NULL,
+    [Unit]              VARCHAR (64)  NULL,
+    [LocationCode]      NVARCHAR (50) NULL,
+    [Location]          VARCHAR (64)  NULL,
+    [InPayroll]         CHAR (1)      CONSTRAINT [DF_tblHREmployeeInfo_OnPayroll] DEFAULT ('Y') NULL,
+    CONSTRAINT [PK_tblHREmployeeInfo] PRIMARY KEY CLUSTERED ([ID_NUMBER] ASC)
+);
+

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[tblNTUserNames] (
+    [NTUserName] NVARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_tblNTUserNames] PRIMARY KEY CLUSTERED ([NTUserName] ASC) WITH (FILLFACTOR = 90)
+);
+
