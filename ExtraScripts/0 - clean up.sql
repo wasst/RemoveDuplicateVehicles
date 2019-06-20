@@ -1,4 +1,10 @@
-﻿IF EXISTS (
+﻿PRINT('Delete existing tables')
+
+
+
+
+
+IF EXISTS (
 SELECT * FROM SYS.objects WHERE NAME = 'VEHICLESREMOVED' AND TYPE_DESC = 'USER_TABLE')
 
 BEGIN
